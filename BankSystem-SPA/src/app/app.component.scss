@@ -1,0 +1,28 @@
+mat-toolbar {
+  background-color: #673ab7;
+  color: white;
+}
+
+.main-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+
+    span {
+      height: 18px;
+    }
+  }
+
+  .header {
+    height: 80px;
+  }
+}
